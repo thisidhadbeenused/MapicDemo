@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="@color/textBlack"
+        android:textSize="20sp"
+        android:layout_marginTop="200dp"
+        />
+    <Button
+        android:id="@+id/share_btn"
+        android:layout_width="108dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="我要分享"
+        android:background="@drawable/redbutton_border" />
+
+    <RelativeLayout
+        android:id="@+id/sub_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#80ffffff"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/geren"
+            android:id="@+id/person_btn"
+            />
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="85dp"
+            android:layout_toRightOf="@id/person_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/luxian"
+
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shezhi"
+            android:id="@+id/setting_btn"
+            />
+    </RelativeLayout>
+</RelativeLayout>

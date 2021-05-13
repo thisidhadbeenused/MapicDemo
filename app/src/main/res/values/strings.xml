@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MapicDemo</string>
+    <string name="login_welcome">Welcome To</string>
+    <string name="login_name">日.迹</string>
 </resources>
